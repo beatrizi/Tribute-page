@@ -1,0 +1,42 @@
+#image {
+  /*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size*/
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  background-color: white;
+}
+/*------------------------------------------------------------*/
+body {
+  padding: 30px;
+  background-color: rgb(191, 237, 252);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+  text-align: center;
+}
+#subtitle {
+  text-align: center;
+}
+#img-caption {
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#tribute-info {
+  max-width: 500px;
+}
+footer {
+  background: black;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  color: seashell;
+}
